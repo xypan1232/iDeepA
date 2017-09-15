@@ -2,7 +2,6 @@ import sys
 import os
 import numpy as np
 import pdb
-#sys.path.insert(0, '/usr/local/lib/python2.7/dist-packages/Keras-2.0.4-py2.7.egg')
 from keras.models import Sequential
 import keras.layers.core as core
 import keras.layers.convolutional as conv
