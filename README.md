@@ -1,4 +1,5 @@
 # iDeepA
+RNA-binding proteins (RBPs)  play crucial roles in many biological processes, e.g. gene regulation. Computational identification of RBP binding sites on RNAs are urgently needed. In particular, RBPs bind to RNAs by recognizing sequence motifs. Thus, fast locating those motifs on RNA sequences is crucial and time-efficient for determining whether the RNAs interact with the RBPs or not. In this study, we present an attention based convolutional neural network, iDeepA, to predict RNA-protein binding sites from raw RNA sequences. We first encode RNA sequences into one-hot encoding. Next, we design a deep learning model  with a convolutional neural network (CNN) and an attention mechanism, which automatically search for important positions, e.g. binding motifs, to learn discriminant high-level features for predicting RBP binding sites. We evaluate iDeepA on publicly gold-standard RBP binding sites derived from CLIP-seq data. The results demonstrate iDeepA achieves comparable performance with other state-of-the-art methods.
 
 # Dependency <br>
 <a href=https://github.com/fchollet/keras/>keras 1.1.2 library</a> and its backend is theano 0.9.0 <br>
